@@ -1,0 +1,160 @@
+/* Your styles here */
+/* GENERAL RULES  */
+body div:first-of-type {
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: open sans;
+  line-height: 1.65;
+  text-align: center;
+}
+/* HEADER  */
+header {
+  background-color: black;
+}
+header > figure > img {
+  width: 150px;
+  padding: 30px;
+}
+/* FIRST BLOCK  */
+.background-layer > button {
+  color: white;
+  background-color: #f04c2f;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  border: none;
+  font-family: montserrat;
+  font-weight: bold;
+}
+.background-layer {
+  background-color: rgba(255, 255, 255, 0.315);
+}
+.background-layer > p {
+  padding-bottom: 40px;
+}
+
+.first-block {
+  background-image: url(./Esercizio/images/banner.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  padding: 120px;
+}
+
+h1 {
+  color: #25a2c3;
+  font-size: 2em;
+  margin-left: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-right: 80px;
+  line-height: normal;
+  font-weight: bold;
+  font-family: montserrat;
+}
+
+/* SECOND BLOCK  */
+
+.round-image > figure > img {
+  overflow: hidden;
+  border-radius: 50%;
+  padding-top: 40px;
+}
+.round-image {
+}
+
+.second-block {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.second-block > h3 {
+  font-size: 18px;
+  font-family: montserrat;
+  font-weight: bold;
+  color: #25a2c3;
+  padding: 20px;
+}
+.second-block > p {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+section {
+  background-color: #e22d0e;
+  color: white;
+}
+section > h2 {
+  font-family: montserrat;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+section > p:first-of-type {
+  font-style: italic;
+  padding: 30px;
+}
+section > p:last-of-type {
+  padding-bottom: 30px;
+}
+.info {
+  margin: 40px;
+
+  border: solid #393d4120;
+}
+.info figure img {
+  max-width: 100%;
+}
+.info-1 {
+  margin: 40px;
+  border: solid #393d4120;
+}
+.info-1 figure img {
+  max-width: 100%;
+}
+.info-2 {
+  margin: 40px;
+  border: solid #393d4120;
+}
+.info-2 figure img {
+  max-width: 100%;
+}
+h5 {
+  color: #25a2c3;
+  font-family: montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+footer {
+  color: white;
+  background-color: #25a2c3;
+}
+footer > h3 {
+  font-size: 30px;
+  font-family: montserrat;
+  color: white;
+  padding-bottom: 30px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.devider {
+  padding-bottom: 50px;
+}
+footer span {
+  font-size: 15px;
+  padding-top: 30px;
+  border-top: solid white;
+  padding-bottom: 30px;
+}
+a {
+  color: white;
+}
