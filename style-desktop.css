@@ -1,6 +1,6 @@
 /* Your styles here */
 /* GENERAL RULES  */
-body div:first-of-type {
+body div {
   color: #393d41;
   font-size: 1.2rem;
   font-family: open sans;
@@ -64,11 +64,16 @@ h1 {
   padding-top: 40px;
 }
 .round-image {
+  width: 49%;
+  display: inline-block;
 }
 
 .second-block {
+  width: 49%;
+  display: inline-block;
   padding-top: 30px;
   padding-bottom: 50px;
+  text-align: left;
 }
 
 .second-block > h3 {
@@ -76,14 +81,14 @@ h1 {
   font-family: montserrat;
   font-weight: bold;
   color: #25a2c3;
-  padding: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 .second-block > p {
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding-bottom: 20px;
 }
+
+/* middle section  */
 
 section {
   background-color: #e22d0e;
@@ -103,27 +108,38 @@ section > p:first-of-type {
 section > p:last-of-type {
   padding-bottom: 30px;
 }
-.info {
-  margin: 40px;
 
+/* last block  */
+
+.info {
+  padding-bottom: 25px;
+  display: inline-block;
+  max-width: 25%;
   border: solid #393d4120;
 }
 .info figure img {
   max-width: 100%;
 }
 .info-1 {
+  padding-bottom: 25px;
+  max-width: 25%;
+  display: inline-block;
   margin: 40px;
   border: solid #393d4120;
 }
 .info-1 figure img {
   max-width: 100%;
+  padding-bottom: 5px;
 }
 .info-2 {
-  margin: 40px;
+  padding-bottom: 25px;
+  display: inline-block;
+  max-width: 25%;
   border: solid #393d4120;
 }
 .info-2 figure img {
   max-width: 100%;
+  padding-bottom: 22px;
 }
 h5 {
   color: #25a2c3;
@@ -148,6 +164,7 @@ footer > h3 {
 
 .devider {
   padding-bottom: 50px;
+  color: white;
 }
 footer span {
   font-size: 15px;
